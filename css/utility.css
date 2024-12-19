@@ -1,0 +1,43 @@
+@media (max-width:850px) {
+    .container1{
+        flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    .container1 .box{
+        width: 100%;
+    }
+    .container1 img{
+        margin: 0px auto;
+        height: 300px;
+        width: 60%;
+       
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:650px) {
+    .container-3{
+        width: 60%;
+        margin: 30px auto;
+    }
+    .container-3 img{
+        margin: 0px auto;
+        width: 200px;
+        height: 200px;
+    }
+    .container-3,.container-5{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .container-5 .box{
+        width: 100%;
+    }
+}
+
